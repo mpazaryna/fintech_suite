@@ -1,11 +1,11 @@
 ---
 slug: building-a-risk-calculator-with-risk-kit
-title: A modular and flexible calculator
+title: A modular calculator
 authors: [paz]
 tags: [dev, fintech]
 ---
 
-# Building a Flexible Risk Calculator with risk_kit
+# Building tools with risk_kit
 
 ## Introduction
 
@@ -18,19 +18,19 @@ The [Risk Calculator](https://github.com/mpazaryna/risk_calculator) provides a c
 
 The Risk Calculator is designed to perform basic arithmetic operations—addition, subtraction, and multiplication—using the risk_kit library. The project is structured to allow easy extension and modification, making it a robust tool for risk analysis.
 
-[Risk Calculator Repository](https://github.com/mpazaryna/risk_calculator)
+- [Risk Calculator Repository](https://github.com/mpazaryna/risk_calculator)
+- [Risk Kit](https://github.com/mpazaryna/risk_kit)
+
 
 ## Key Components
 
-CLI Interface: The project uses the click library to create a user-friendly command-line interface. Users can easily perform calculations by invoking commands like add-numbers, subtract-numbers, and multiply-numbers.
+**CLI Interface:** The project uses the click library to create a user-friendly command-line interface. Users can easily perform calculations by invoking commands like add-numbers, subtract-numbers, and multiply-numbers.
 
-Modular Design: The core of the Risk Calculator is its reliance on the risk_kit module, which encapsulates various mathematical operations. This modular approach allows developers to easily integrate additional functionalities or replace existing ones without significant changes to the overall architecture.
+**Modular Design:** The core of the Risk Calculator is its reliance on the risk_kit module, which encapsulates various mathematical operations. This modular approach allows developers to easily integrate additional functionalities or replace existing ones without significant changes to the overall architecture.
 
 ## Implementation of risk_kit
 
 The risk_kit module is imported in the cli.py file, where its functions—add, subtract, and multiply—are utilized. Here’s a snippet of how these functions are integrated:
-
-
 
 ```python
 import click
@@ -48,12 +48,7 @@ def add_numbers(a, b):
     """Add two numbers."""
     result = add(a, b)
     click.echo(f"The result of {a} + {b} is: {result}")
-
-# Similar implementations for subtract_numbers and multiply_numbers
 ```
-
-
-
 
 ## Flexibility Through Modularity
 
@@ -66,5 +61,4 @@ Maintainability: The separation of concerns ensures that changes in the risk_kit
 
 ## Conclusion
 
-The Risk Calculator project exemplifies how a modular approach can enhance flexibility and maintainability in software development. By leveraging the risk_kit module, the project not only provides essential arithmetic functionalities but also sets the stage for future enhancements. Whether you're a developer looking to extend the tool or a user seeking a reliable risk assessment calculator, the Risk Calculator is a valuable resource in your toolkit.
-
+The Risk Calculator exemplifies how a modular approach can enhance flexibility and maintainability in software development. By leveraging the risk_kit module, the project not only provides essential arithmetic functionalities but also sets the stage for future enhancements. Whether you're a developer looking to extend the tool or a user seeking a reliable risk assessment calculator, the Risk Calculator is a valuable resource in your toolkit.
