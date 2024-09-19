@@ -1,4 +1,4 @@
-# Detailed Analysis and Feasibility: Fintech Project
+# Analysis and Feasibility: Fintech Project
 
 ## 1. Project Overview
 
