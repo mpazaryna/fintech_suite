@@ -1,7 +1,7 @@
 ---
 slug: building-a-risk-calculator-with-risk-kit
 title: A modular and flexible calculator
-authors: [paz, reed]
+authors: [paz]
 tags: [dev, fintech]
 ---
 
@@ -12,11 +12,13 @@ tags: [dev, fintech]
 <!-- truncate -->
 
 
-In today's data-driven world, risk assessment is crucial for informed decision-making. The Risk Calculator project provides a command-line interface (CLI) that leverages the powerful functionalities of the risk_kit module. This blog post will explore how the project is structured, the modular nature of risk_kit, and how it contributes to the flexibility of the Risk Calculator.
+The [Risk Calculator](https://github.com/mpazaryna/risk_calculator) provides a command-line interface (CLI) that leverages the powerful functionalities of the risk_kit module. This blog post will explore how the project is structured, the modular nature of risk_kit, and how it contributes to the flexibility of the Risk Calculator.
 
 ## Project Overview
 
 The Risk Calculator is designed to perform basic arithmetic operations—addition, subtraction, and multiplication—using the risk_kit library. The project is structured to allow easy extension and modification, making it a robust tool for risk analysis.
+
+[Risk Calculator Repository](https://github.com/mpazaryna/risk_calculator)
 
 ## Key Components
 
@@ -28,18 +30,6 @@ Modular Design: The core of the Risk Calculator is its reliance on the risk_kit 
 
 The risk_kit module is imported in the cli.py file, where its functions—add, subtract, and multiply—are utilized. Here’s a snippet of how these functions are integrated:
 
-## Flexibility Through Modularity
-
-The modular nature of risk_kit allows the Risk Calculator to be flexible in several ways:
-
-Easy Integration: New mathematical operations can be added to the risk_kit module, and the Risk Calculator can utilize them without needing to modify its core logic.
-
-Customizability: Users can customize the calculator by adding their own functions to risk_kit, making it adaptable to specific needs.
-Maintainability: The separation of concerns ensures that changes in the risk_kit module do not affect the CLI directly, making the codebase easier to maintain.
-
-## Conclusion
-
-The Risk Calculator project exemplifies how a modular approach can enhance flexibility and maintainability in software development. By leveraging the risk_kit module, the project not only provides essential arithmetic functionalities but also sets the stage for future enhancements. Whether you're a developer looking to extend the tool or a user seeking a reliable risk assessment calculator, the Risk Calculator is a valuable resource in your toolkit.
 
 
 ```python
@@ -63,10 +53,18 @@ def add_numbers(a, b):
 ```
 
 
-Flexibility Through Modularity
+
+
+## Flexibility Through Modularity
+
 The modular nature of risk_kit allows the Risk Calculator to be flexible in several ways:
+
 Easy Integration: New mathematical operations can be added to the risk_kit module, and the Risk Calculator can utilize them without needing to modify its core logic.
+
 Customizability: Users can customize the calculator by adding their own functions to risk_kit, making it adaptable to specific needs.
 Maintainability: The separation of concerns ensures that changes in the risk_kit module do not affect the CLI directly, making the codebase easier to maintain.
-Conclusion
+
+## Conclusion
+
 The Risk Calculator project exemplifies how a modular approach can enhance flexibility and maintainability in software development. By leveraging the risk_kit module, the project not only provides essential arithmetic functionalities but also sets the stage for future enhancements. Whether you're a developer looking to extend the tool or a user seeking a reliable risk assessment calculator, the Risk Calculator is a valuable resource in your toolkit.
+

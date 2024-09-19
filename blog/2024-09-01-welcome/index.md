@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [paz, reed]
+authors: [paz]
 tags: [facebook, hello, docusaurus]
 ---
 
