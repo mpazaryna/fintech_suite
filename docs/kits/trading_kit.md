@@ -20,7 +20,26 @@ The `trading_kit` module is designed to provide a comprehensive set of tools for
 - Utilizes `risk_kit` for risk assessment in trading strategies
 
 ## Usage
-[Brief instructions on how to install and use the module]
+
+```python
+from trading_kit import TechnicalAnalysis
+
+# Perform technical analysis
+ta = TechnicalAnalysis(data)
+signals = ta.generate_signals()
+
+# Assess risk
+risk = RiskMetrics(data)
+var = risk.calculate_var()
+
+# Perform valuation
+valuation = Valuation(company_data)
+intrinsic_value = valuation.dcf_model()
+
+# Make trading decision based on combined analysis
+# ...
+```
+
 
 ## Note
 This module focuses on technical analysis and algorithmic trading. For comprehensive financial analysis or risk management, use in conjunction with `finance_kit` and `risk_kit`.
