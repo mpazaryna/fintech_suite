@@ -7,12 +7,9 @@ tags: [dev, fintech]
 
 # Building tools with risk_kit
 
-## Introduction
+The [Risk Calculator](https://github.com/mpazaryna/risk_calculator) provides a command-line interface (CLI) that leverages the powerful functionalities of the risk_kit module. This blog post will explore how the project is structured, the modular nature of risk_kit, and how it contributes to the flexibility of the Risk Calculator.
 
 <!-- truncate -->
-
-
-The [Risk Calculator](https://github.com/mpazaryna/risk_calculator) provides a command-line interface (CLI) that leverages the powerful functionalities of the risk_kit module. This blog post will explore how the project is structured, the modular nature of risk_kit, and how it contributes to the flexibility of the Risk Calculator.
 
 ## Project Overview
 
