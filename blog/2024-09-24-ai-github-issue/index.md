@@ -5,8 +5,7 @@ authors: [paz]
 tags: [AI, software development, project management]
 ---
 
-In the software development, creating a detailed and well-structured work request is crucial. Adding AI to streamline this process is beneficial and a logical
-next step in the integration of AI tools in the development workflow. 
+In the software development, creating a detailed and well-structured work request is crucial. Integrating AI to streamline ticket creation improves efficiency and aligns with the ongoing adoption of AI tools in development pipelines.
 
 <!-- truncate -->
 
@@ -18,7 +17,7 @@ The trading_kit module required a refactoring: while it effectively used pandas 
 
 ## The AI-Powered Solution
 
-Using AI, we generated a detailed GitHub issue that not only outlined the problem but also provided a comprehensive plan for implementing the solution. You can view the full ticket [here](https://github.com/mpazaryna/trading_kit/issues/1).
+Using AI, we generated a detailed GitHub issue that not only outlined the problem but also provided a comprehensive plan for implementing the solution. **You can view the full ticket [here](https://github.com/mpazaryna/trading_kit/issues/1).**
 
 Let's break down how AI contributed to creating this thorough ticket:
 
