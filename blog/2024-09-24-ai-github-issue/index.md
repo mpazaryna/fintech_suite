@@ -1,6 +1,6 @@
 ---
 slug: ai-powered-ticket-creation
-title: Leveraging AI for Comprehensive Ticket Creation
+title: Improving Issue Tickets with AI
 authors: [paz]
 tags: [AI, software development, project management]
 ---
