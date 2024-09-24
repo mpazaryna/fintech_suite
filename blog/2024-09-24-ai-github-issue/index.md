@@ -1,12 +1,14 @@
 ---
 slug: ai-powered-ticket-creation
-title: Leveraging AI for Comprehensive Ticket Creation: A Case Study
+title: Leveraging AI for Comprehensive Ticket Creation
 authors: [paz]
 tags: [AI, software development, project management]
 ---
 
 In the software development, creating a detailed and well-structured work request is crucial. Adding AI to streamline this process is beneficial and a logical
 next step in the integration of AI tools in the development workflow. 
+
+<!-- truncate -->
 
 In this blog post, we'll explore how AI was utilized to create comprehensive tickets and work plans, using this real-world example from the trading_kit project.
 
